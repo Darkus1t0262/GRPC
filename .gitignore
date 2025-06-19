@@ -1,0 +1,30 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# gRPC-generated files (optional — only if you want to re-generate them)
+# Uncomment if you want to always regenerate
+# greeter_pb2.py
+# greeter_pb2_grpc.py
+
+# Virtual environment
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker files
+*.log
+
+# Optional: PyInstaller
+*.spec
+dist/
+build/
